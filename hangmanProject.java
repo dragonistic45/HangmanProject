@@ -30,7 +30,15 @@ public class Hangman
     
     public boolean checkAnswer(String answer)
     {
-       
+       int correct = 0;
+        int incorrect = 0;
+        for (int i = 0; i < array.length; i++)
+        {
+            if (array[i] == "insert letter here")
+                correct++;
+            else
+            incorrect++;
+        }
     }
     
     public void printHangman(int timesWrong)
