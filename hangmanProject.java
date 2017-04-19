@@ -16,9 +16,9 @@ public class Hangman
         {
             answer.next();
            
-        for (int i = 0; i < array.length; i++)
+        for (int i = 0; i < Word.length; i++)
         {
-            if (array[i] == answer)
+            if (Word.substring(i) == answer)
             correct++;
             else
             incorrect++;
