@@ -27,7 +27,15 @@ public class Hangman
             {
                 
             }
-            
+            if (incorrect.length == 6)
+            {
+                gameOver = true;
+            }
+            else if (correct == Word.length)
+            {
+                gameOver = true;
+                win = true;
+            }
         }
         
         if (win == true)
