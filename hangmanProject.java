@@ -10,16 +10,16 @@ public class Hangman
         boolean gameOver = false;
         boolean win = false;
         
-        
+        int correct = 0;
+        int incorrect = 0;
         while (gameOver == false)
         {
             answer.next();
-            int correct = 0;
-        int incorrect = 0;
+           
         for (int i = 0; i < array.length; i++)
         {
             if (array[i] == answer)
-                correct++;
+            correct++;
             else
             incorrect++;
         }
