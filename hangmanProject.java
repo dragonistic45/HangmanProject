@@ -46,7 +46,15 @@ public class Hangman
     
     public boolean checkAnswer(String answer)
     {
-       
+       for (int i = 0; Word.legnth; i++)
+       {
+           if (Word.substring(i) == answer)
+           {
+            System.out.println("There is a " + Word + " in the word!");
+            return true;
+           }
+       }
+       return false;
     }
     
     public void printHangman(int timesWrong)
