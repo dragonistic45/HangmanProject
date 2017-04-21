@@ -98,7 +98,7 @@ public class Hangman
                       System.out.println ("  _______");
                       System.out.println (" |       |");
                       System.out.println (" |       O");
-                      System.out.println (" |      \|");
+                      System.out.println (" |     \\|");
                       System.out.println (" |");
                       System.out.println (" |");
                       System.out.println (" |______");
@@ -109,7 +109,7 @@ public class Hangman
                      System.out.println ("  _______");
                      System.out.println (" |       |");
                      System.out.println (" |       O");
-                     System.out.println (" |      \|/");
+                     System.out.println (" |     \\|/");
                      System.out.println (" |       ");
                      System.out.println (" |       ");
                      System.out.println (" |______");
@@ -120,7 +120,7 @@ public class Hangman
                        System.out.println ("  _______");
                        System.out.println (" |       |");
                        System.out.println (" |       O");
-                       System.out.println (" |      \|/");
+                       System.out.println (" |     \\|/");
                        System.out.println (" |      / ");
                        System.out.println (" |       ");
                        System.out.println (" |______");
@@ -131,7 +131,7 @@ public class Hangman
                        System.out.println ("  _______");
                        System.out.println (" |       |");
                        System.out.println (" |       O");
-                       System.out.println (" |      \|/");
+                       System.out.println (" |     \\|/");
                        System.out.println (" |      / \\");
                        System.out.println (" |       |");
                        System.out.println (" |______");
@@ -140,4 +140,3 @@ public class Hangman
                      } 
          }                                                             
     }
-}
