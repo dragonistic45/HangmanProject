@@ -55,7 +55,7 @@ public class Hangman
        return false;
     }
     
-public void printHangman(int timesWrong)
+    public void printHangman(int timesWrong)
     {
         int timesWrong = incorrect;
         if (timesWrong >= 0)
