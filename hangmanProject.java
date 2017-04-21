@@ -22,9 +22,9 @@ public class Hangman
                 word = answer.next();
             }
             
-            if (checkAnswer(word))
+            if (checkAnswer(word, guessWord))
             {
-                
+                System.out.println("There is a " + answer + " in the word!");
                 
             }
             
@@ -52,7 +52,7 @@ public class Hangman
        {
            if (guessWord.substring(i) == answer)
            {
-            System.out.println("There is a " + answer + " in the word!");
+            
             return true;
            }
        }
