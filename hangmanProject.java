@@ -1,8 +1,6 @@
 import java.util.Scanner;
-
 public class Hangman
 {
-    
     public static void main (String args[])
     {
         Scanner answer = new Scanner (System.in);
@@ -15,7 +13,6 @@ public class Hangman
         {
             String word = answer.next();
             
-
             if(word.length() != 1)
             {
                 System.out.println("Please guess a valid character.");
@@ -44,7 +41,6 @@ public class Hangman
             System.out.println("Congratulations! You win!");
         }
     }
-
     
     public static boolean checkAnswer(String answer, String guessWord)
     {
