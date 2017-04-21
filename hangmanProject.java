@@ -59,6 +59,116 @@ public class Hangman
     
     public void printHangman(int timesWrong)
     {
-        System.out.println("Print some hangman Ascii art here");
+        if (timesWrong >= 0)
+         {
+             if (timesWrong == 0)
+             {
+                 System.out.println ("  _______");
+                 System.out.println (" |       |");
+                 System.out.println (" |");
+                 System.out.println (" |");
+                 System.out.println (" |");
+                 System.out.println (" |");
+                 System.out.println (" |______");
+                 System.out.println ("/_______\\"); 
+             }
+                 else
+                    if (timesWrong == 1)             
+                    {
+                        System.out.println ("  _______");
+                        System.out.println (" |       |");
+                        System.out.println (" |       O");
+                        System.out.println (" |");
+                        System.out.println (" |");
+                        System.out.println (" |");
+                        System.out.println (" |______");
+                        System.out.println ("/_______\\"); 
+                    }
+                        else 
+                            if (timesWrong == 2)
+                            {
+                                System.out.println ("  _______");
+                                System.out.println (" |       |");
+                                System.out.println (" |       O");
+                                System.out.println (" |       |");
+                                System.out.println (" |");
+                                System.out.println (" |");
+                                System.out.println (" |______");
+                                System.out.println ("/_______\\");
+                            }
+                                else
+                                    if (timesWrong == 3)
+                                    {
+                                        System.out.println ("  _______");
+                                        System.out.println (" |       |");
+                                        System.out.println (" |       O");
+                                        System.out.println (" |      \\|");
+                                        System.out.println (" |");
+                                        System.out.println (" |");
+                                        System.out.println (" |______");
+                                        System.out.println ("/_______\\"); 
+                                    } 
+                                        else
+                                            if (timesWrong == 4)
+                                            {
+                                                System.out.println ("  _______");
+                                                System.out.println (" |       |");
+                                                System.out.println (" |       O");
+                                                System.out.println (" |      \\|/");
+                                                System.out.println (" |       ");
+                                                System.out.println (" |       ");
+                                                System.out.println (" |______");
+                                                System.out.println ("/________\\");
+                                            }
+                                                else 
+                                                    if (timesWrong == 5)
+                                                    {
+                                                        System.out.println ("  _______");
+                                                        System.out.println (" |       |");
+                                                        System.out.println (" |       O");
+                                                        System.out.println (" |      \\|/");
+                                                        System.out.println (" |       |");
+                                                        System.out.println (" |       ");
+                                                        System.out.println (" |______");
+                                                        System.out.println ("/________\\");
+                                                    }  
+                                                        else
+                                                            if (timesWrong == 6)
+                                                            {
+                                                                System.out.println ("  _______");
+                                                                System.out.println (" |       |");
+                                                                System.out.println (" |       O");
+                                                                System.out.println (" |      \\|/");
+                                                                System.out.println (" |       |");
+                                                                System.out.println (" |       |");
+                                                                System.out.println (" |______");
+                                                                System.out.println ("/________\\");
+                                                            }
+                                                                else
+                                                                    if (timesWrong == 7)
+                                                                    {
+                                                                        System.out.println ("  _______");
+                                                                        System.out.println (" |       |");
+                                                                        System.out.println (" |       O");
+                                                                        System.out.println (" |      \\|/");
+                                                                        System.out.println (" |       |");
+                                                                        System.out.println (" |      /|");
+                                                                        System.out.println (" |______");
+                                                                        System.out.println ("/________\\");
+                                                                    }  
+                                                                        else
+                                                                            if (timesWrong == 8)
+                                                                            {
+                                                                                System.out.println ("  _______");
+                                                                                System.out.println (" |       |");
+                                                                                System.out.println (" |       O");
+                                                                                System.out.println (" |      \\|/");
+                                                                                System.out.println (" |       |");
+                                                                                System.out.println (" |      /|\\");
+                                                                                System.out.println (" |______");
+                                                                                System.out.println ("/________\\");
+                                                                                System.out.println ("Hangman!");
+                                                                            }
+         }                                                             
     }
 }
