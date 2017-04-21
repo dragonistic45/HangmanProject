@@ -25,6 +25,9 @@ public class Hangman
                 correct++;
             }
             
+            if (checkAnswer(word, guessWord) == false)
+            incorrect++;
+            
             if (incorrect == 6)
             {
                 gameOver = true;
