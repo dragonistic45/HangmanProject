@@ -51,8 +51,7 @@ public class Hangman
        {
            if (guessWord.substring(i) == answer)
            {
-            
-            return true;
+                return true;
            }
        }
        return false;
