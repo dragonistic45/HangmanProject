@@ -41,7 +41,7 @@ public class Hangman
         
         if (win == true)
         {
-            
+            System.out.println("Congratulations! You win!");
         }
     }
 
