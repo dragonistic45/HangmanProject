@@ -6,7 +6,7 @@ public class Hangman
         Scanner answer = new Scanner (System.in);
         boolean gameOver = false;
         boolean win = false;
-        
+        String guessWord = "television";
         int correct = 0;
         int incorrect = 0;
         while (gameOver == false)
