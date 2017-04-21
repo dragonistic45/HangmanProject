@@ -22,7 +22,7 @@ public class Hangman
             if (checkAnswer(word, guessWord))
             {
                 System.out.println("There is a " + answer + " in the word!");
-                
+                correct++;
             }
             
             if (incorrect == 6)
